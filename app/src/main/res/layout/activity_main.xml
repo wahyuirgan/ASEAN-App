@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="top.technopedia.myapplication.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/grey">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/indonesia" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Indonesia"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+                        
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love1"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail1"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/mlysa" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Malaysia"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love2"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail2"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/flpna" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Filiphina"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love3"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail3"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/sgpra" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Singapura"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love4"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail4"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/thiln" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Thailand"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love5"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+                            <Button
+                                android:id="@+id/detail5"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/berunai" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Brunei"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love6"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail6"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/vitnm" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Vietnam"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love7"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail7"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/laos" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Laos"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love8"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail8"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/mymr" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Myanmar"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love9"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail9"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="@color/silver">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="96dp"
+                            android:padding="10dp"
+                            android:src="@drawable/kmbj" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Kamboja"
+                            android:layout_marginBottom="7dp"
+                            style="@style/TextContent.Black"/>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@color/lightgray"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <CheckBox
+                                android:id="@+id/love10"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/love"
+                                android:button="@null"
+                                android:checked="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:stateListAnimator="@animator/scale" />
+
+                            <Button
+                                android:id="@+id/detail10"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="Detail"
+                                style="@style/Widget.AppCompat.Button.Colored"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

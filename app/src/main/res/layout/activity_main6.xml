@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="top.technopedia.myapplication.Main6Activity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:padding="8dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:id="@+id/foto"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/thiln"/>
+        <TextView
+            android:layout_toRightOf="@id/foto"
+            android:id="@+id/nama_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:text="Thailand"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:paddingBottom="3dp"
+            style="@style/TextContent.Black"/>
+        <TextView
+            android:layout_toRightOf="@+id/foto"
+            android:layout_below="@id/nama_item"
+            android:id="@+id/item2"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ibu kota"
+            style="@style/TextContent.Black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama_item"
+            android:layout_toRightOf="@+id/item2"
+            android:text="Bangkok"
+            android:layout_marginLeft="43dp"
+            android:id="@+id/textView"
+            style="@style/TextContent.Black"/>
+        <TextView
+            android:layout_toRightOf="@+id/foto"
+            android:layout_below="@id/nama_item"
+            android:id="@+id/item3"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luas Wilayah"
+            style="@style/TextContent.Black"/>
+
+        <TextView
+            style="@style/TextContent.Black"
+            android:layout_below="@+id/nama_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/item3"
+            android:layout_alignRight="@+id/textView2"
+            android:text="513.120"
+            android:layout_marginLeft="11dp"/>
+        <TextView
+            android:layout_toRightOf="@+id/foto"
+            android:layout_below="@id/nama_item"
+            android:id="@+id/item4"
+            android:textStyle="bold"
+            android:layout_marginTop="34dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Populasi"
+            style="@style/TextContent.Black"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextContent.Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/item4"
+            android:layout_alignBottom="@+id/item4"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:text="68.863.514" />
+        <TextView
+            android:layout_toRightOf="@+id/foto"
+            android:layout_below="@id/nama_item"
+            android:id="@+id/item5"
+            android:textStyle="bold"
+            android:layout_marginTop="51dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Resmi"
+            style="@style/TextContent.Black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama_item"
+            android:layout_marginTop="51dp"
+            android:layout_toRightOf="@+id/item5"
+            android:text="Thai"
+            android:layout_marginLeft="5dp"
+            style="@style/TextContent.Black"
+            android:id="@+id/textView3" />
+        <TextView
+            android:layout_toRightOf="@+id/foto"
+            android:layout_below="@id/nama_item"
+            android:id="@+id/item6"
+            android:textStyle="bold"
+            android:layout_marginTop="68dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mata Uang"
+            style="@style/TextContent.Black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama_item"
+            android:layout_marginTop="68dp"
+            android:layout_toRightOf="@+id/item6"
+            android:text="Baht"
+            android:layout_marginLeft="26dp"
+            style="@style/TextContent.Black"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/lightgray"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <WebView
+            android:id="@+id/konten5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>
